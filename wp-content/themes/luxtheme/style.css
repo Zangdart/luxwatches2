@@ -46,31 +46,46 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
 html {
-	font-family: sans-serif;
+	font-family: "Harlow Solid Italic",sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
 body.home {
 	margin: 0 auto;
-	background-color: rgba(0, 35, 156,0.5);
+	/*background-color: rgba(0, 35, 156,0.5);*/
+	/*background-image: url("images/wbg.jpg");*/
+}
 
+#primary {
+	width: 500px;
+	box-sizing: border-box;
+	vertical-align: top;
+	display: inline-block;
+
+}
+
+#secondary {
+	/*float: right;*/
+	width: 200px;
+	box-sizing: border-box;
+	vertical-align: top;
+	display: inline-block;
 }
 
 #page {
 	margin: 0 auto;
 	width: 80%;
-	background-color: rgba(56, 67, 162,0.2);
+	/*background-color: rgba(56, 67, 162,0.5);*/
 }
 
-section#categories-2{
-	background-color: red;
-}
+
 #meta-2 {
 	display: none;
-}
-a:visited {
-	color: goldenrod;
 }
 
 span a {
@@ -89,18 +104,52 @@ h1.site-title a{
 h2 a {
 	color: darkblue;
 	text-decoration: none;
+
+}
+h2 a:visited {
+	color: goldenrod;
 }
 
 article {
 	margin: 0 auto;
-	width: 80%;
+	/*width: 60%;*/
 	text-align: center;
-	margin-left: 200px;
-}
-#main.site-main{
-	margin-left: 16%;
 }
 
+nav#site-navigation {
+	display: none;
+}
+
+#recent-posts-2{
+	background-color: pink;
+	width: 16%;
+	min-width: 190px;
+}
+section#recent-comments-2 {
+	background-color: yellow;
+	width: 28%;
+	min-width: 300px;
+}
+
+#archives-2{
+	background-color: green;
+	width: 18%;
+	min-width: 205px;
+}
+
+section#categories-2{
+	background-color: red;
+	width: 18%;
+	min-width:205px;
+}
+
+
+
+p.site-description {
+	color: whitesmoke;
+	font-size: 110%;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
 article,
 aside,
 details,
@@ -945,3 +994,5 @@ article {
 	border-radius: 10px;
 	background-color: rgba(244,003,008,0.3);
 }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
