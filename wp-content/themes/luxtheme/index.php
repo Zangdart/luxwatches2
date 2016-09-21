@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The main template file.
@@ -14,8 +15,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
 		<?php
 		if ( have_posts() ) :
@@ -24,8 +25,8 @@ get_header(); ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
-
-			<?php
+				single_post_title()
+				<?php
 			endif;
 
 			/* Start the Loop */
@@ -48,8 +49,8 @@ get_header(); ?>
 
 		endif; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</main><!-- #main -->
+</div><!-- #primary -->
 
 <?php
 get_sidebar();
