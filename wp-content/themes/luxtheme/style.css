@@ -62,7 +62,9 @@ body.home {
 }
 
 #primary {
-	width: 500px;
+	width: 60%;
+	margin-right:2% ;
+	/*width: 500px;*/
 	box-sizing: border-box;
 	vertical-align: top;
 	display: inline-block;
@@ -70,11 +72,20 @@ body.home {
 }
 
 #secondary {
-	/*float: right;*/
-	width: 200px;
+	width: 35%;
+	/*width: 200px;*/
 	box-sizing: border-box;
 	vertical-align: top;
 	display: inline-block;
+	background-color: #1e8cbe;
+	text-align: center;
+	padding: 2%;
+}
+
+#secondary ul {
+	margin-left: 2%;
+	margin-top: 2%;
+	text-align: left;
 }
 
 #page {
@@ -110,6 +121,9 @@ h2 a:visited {
 	color: goldenrod;
 }
 
+h2.widget-title {
+
+}
 article {
 	margin: 0 auto;
 	/*width: 60%;*/
@@ -146,8 +160,8 @@ section#categories-2{
 
 
 p.site-description {
-	color: whitesmoke;
-	font-size: 110%;
+	color: darkblue;
+	font-size: 200%;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 article,
