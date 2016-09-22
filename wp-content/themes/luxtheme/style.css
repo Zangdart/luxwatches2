@@ -53,6 +53,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+
 }
 
 body.home {
@@ -95,6 +96,8 @@ body.home {
 #page {
 	margin: 0 auto;
 	width: 80%;
+	font-family:"Garamond",serif;
+
 	/*background-color: rgba(56, 67, 162,0.5);*/
 }
 
@@ -106,17 +109,9 @@ body.home {
 span a {
 	padding: 0.5%;
 	text-decoration: none;
-}
-p.site-title {
-	text-align: center;
-	font-size: 250%;
-	margin: 0 auto;
+
 }
 
-p.site-title a{
-	color: goldenrod;
-	text-decoration: none;
-}
 
 h2 a, .navigation .nav-previous a,.navigation .nav-next a {
 	color: darkblue;
@@ -153,11 +148,6 @@ article {
 	padding: 2%;
 }
 
-nav#site-navigation {
-	/*display: none;*/
-}
-
-
 #recent-posts-2{
 	background-color: pink;
 	width: 80%;
@@ -181,18 +171,62 @@ section#categories-2{
 	min-width:205px;
 }
 
+ul>li.menu-item{
+	margin: 2%;
+	font-size: 20px;
+	/*border-right: 2px solid darkblue ;*/
+	padding-right: 2%;
+}
+li.menu-item:not(:last-of-type){
+	border-right: 2px solid darkblue ;
 
+}
+
+#primary-menu li a {
+	color: goldenrod;
+}
+
+p.site-title {
+	font-size: 600%;
+	margin: 0 auto;
+	margin-left: 45%;
+	font-family: "Vladimir Script",sans-serif;
+}
+
+p.site-title a{
+	color: goldenrod;
+	text-decoration: none;
+}
 
 p.site-description {
 	color: darkblue;
 	font-size: 200%;
+	height: 52px;
+	margin: 0 auto;
+	margin-left: 18%;
+	/*margin-bottom: 5%;*/
+
+}
+.site-branding {
 	border-bottom: 2px solid darkblue;
-	margin-left: 20%;
+	margin: 0 auto;
+	margin-bottom: 1%;
 }
 
 .entry-footer{
 	display: none;
 }
+p.logged-in-as a:nth-of-type(2){
+	display: none;
+}
+footer {
+	border-top:2px solid black;
+	text-align: center;
+	padding: 1%;
+	font-size: 20px;
+	margin-top: 4%;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------*/
 article,
 aside,
@@ -253,6 +287,7 @@ dfn {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+	color: darkblue;
 }
 
 mark {
@@ -646,10 +681,11 @@ textarea {
 --------------------------------------------------------------*/
 a {
 	color: royalblue;
+	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	/*color: purple;*/
 }
 
 a:hover,
@@ -675,6 +711,8 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	text-align: center;
+	margin-left:18%;
 }
 
 .main-navigation ul {
