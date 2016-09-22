@@ -20,16 +20,20 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'luxwatches2');
+
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME']);
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+
+define('DB_NAME', '69w01dave_database');
 
 /** MySQL database username */
-define('DB_USER', 'luxwatches2_user');
+define('DB_USER', '69w01dave');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'cocogogo');
+define('DB_PASSWORD', 'ureqydahu');
 
 /** MySQL hostname */
-define('DB_HOST', 'luxwatches2');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

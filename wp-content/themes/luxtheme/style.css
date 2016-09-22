@@ -160,8 +160,8 @@ nav#site-navigation {
 
 #recent-posts-2{
 	background-color: pink;
-	width: 16%;
-	min-width: 190px;
+	width: 80%;
+	min-width: 250px;
 }
 section#recent-comments-2 {
 	background-color: yellow;
