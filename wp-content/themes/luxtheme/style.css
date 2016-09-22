@@ -51,19 +51,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 html {
-	font-family: "Harlow Solid Italic",sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
+
 body.home {
 	margin: 0 auto;
+	/*font-family:"Vladimir Script",sans-serif;*/
 	/*background-color: rgba(0, 35, 156,0.5);*/
 	/*background-image: url("images/wbg.jpg");*/
 }
 
 #primary {
-	width: 60%;
-	margin-right:2% ;
+	width: 67%;
+	/*margin-right:1% ;*/
 	/*width: 500px;*/
 	box-sizing: border-box;
 	vertical-align: top;
@@ -72,19 +73,21 @@ body.home {
 }
 
 #secondary {
-	width: 35%;
-	/*width: 200px;*/
+	width: 32%;
+	min-width: 325px;
 	box-sizing: border-box;
 	vertical-align: top;
 	display: inline-block;
 	background-color: #1e8cbe;
-	text-align: center;
+	/*text-align: center;*/
 	padding: 2%;
+}
+#secondary section {
+	margin-left: 3%;
 }
 
 #secondary ul {
 	margin-left: 2%;
-	margin-top: 2%;
 	text-align: left;
 }
 
@@ -103,16 +106,18 @@ span a {
 	padding: 0.5%;
 	text-decoration: none;
 }
-h1.site-title {
+p.site-title {
 	text-align: center;
-
+	font-size: 250%;
+	margin: 0 auto;
 }
-h1.site-title a{
+
+p.site-title a{
 	color: goldenrod;
 	text-decoration: none;
 }
 
-h2 a {
+h2 a, .nav-previous a {
 	color: darkblue;
 	text-decoration: none;
 
@@ -122,17 +127,18 @@ h2 a:visited {
 }
 
 h2.widget-title {
-
+	margin: 1%;
 }
-article {
+article header {
 	margin: 0 auto;
 	/*width: 60%;*/
 	text-align: center;
 }
 
 nav#site-navigation {
-	display: none;
+	/*display: none;*/
 }
+
 
 #recent-posts-2{
 	background-color: pink;
@@ -162,6 +168,12 @@ section#categories-2{
 p.site-description {
 	color: darkblue;
 	font-size: 200%;
+	border-bottom: 2px solid darkblue;
+	margin-left: 20%;
+}
+
+.entry-footer{
+	display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 article,
@@ -488,7 +500,7 @@ ol {
 }
 
 ul {
-	list-style: disc;
+	list-style :cjk-ideographic ;
 }
 
 ol {
