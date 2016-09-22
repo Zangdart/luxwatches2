@@ -69,6 +69,7 @@ body.home {
 	box-sizing: border-box;
 	vertical-align: top;
 	display: inline-block;
+	/*padding: 5%;*/
 
 }
 
@@ -117,10 +118,24 @@ p.site-title a{
 	text-decoration: none;
 }
 
-h2 a, .nav-previous a {
+h2 a, .navigation .nav-previous a,.navigation .nav-next a {
 	color: darkblue;
 	text-decoration: none;
 
+}
+div.nav-next{
+	/*background-image:url("images/na.png") ;*/
+	border: 1px solid slateblue;
+	width: 20%;
+	text-align: center;
+
+
+}
+div.nav-previous{
+	/*background-image:url("images/ba.png") ;*/
+	border: 1px solid slateblue;
+	width: 20%;
+	text-align: center;
 }
 h2 a:visited {
 	color: goldenrod;
@@ -133,6 +148,9 @@ article header {
 	margin: 0 auto;
 	/*width: 60%;*/
 	text-align: center;
+}
+article {
+	padding: 2%;
 }
 
 nav#site-navigation {
@@ -752,15 +770,15 @@ a:active {
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
 	float: left;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
 	float: right;
-	text-align: right;
-	width: 50%;
+	/*text-align: right;*/
+	/*width: 50%;*/
 }
 
 /*--------------------------------------------------------------
