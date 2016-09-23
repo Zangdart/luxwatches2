@@ -48,19 +48,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 * {
 	box-sizing: border-box;
+	/*background-image: url("images/gbg.jpg");*/
+
 }
 
 html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+	/*background-image: url("images/gbg.jpg");*/
+
 
 }
 
-body.home {
+body.home, body.blog, body.page, body.single, body.category, body.search {
 	margin: 0 auto;
 	/*font-family:"Vladimir Script",sans-serif;*/
 	/*background-color: rgba(0, 35, 156,0.5);*/
-	/*background-image: url("images/wbg.jpg");*/
+	background-image: url("images/gbg.jpg");
 }
 
 #primary {
@@ -80,7 +84,7 @@ body.home {
 	box-sizing: border-box;
 	vertical-align: top;
 	display: inline-block;
-	background-color: #1e8cbe;
+	/*background-color: #1e8cbe;*/
 	/*text-align: center;*/
 	padding: 2%;
 }
@@ -97,8 +101,9 @@ body.home {
 	margin: 0 auto;
 	width: 80%;
 	font-family:"Garamond",serif;
-
 	/*background-color: rgba(56, 67, 162,0.5);*/
+	/*background-image: url("images/gbg.jpg");*/
+
 }
 
 
@@ -112,9 +117,13 @@ span a {
 
 }
 
+article p {
+	color: whitesmoke;
+}
+
 
 h2 a, .navigation .nav-previous a,.navigation .nav-next a {
-	color: darkblue;
+	color: whitesmoke;
 	text-decoration: none;
 
 }
@@ -128,7 +137,7 @@ div.nav-next{
 }
 div.nav-previous{
 	/*background-image:url("images/ba.png") ;*/
-	border: 1px solid slateblue;
+	border: 1px solid purple;
 	width: 20%;
 	text-align: center;
 }
@@ -138,6 +147,7 @@ h2 a:visited {
 
 h2.widget-title {
 	margin: 1%;
+	color: whitesmoke;
 }
 article header {
 	margin: 0 auto;
@@ -149,24 +159,24 @@ article {
 }
 
 #recent-posts-2{
-	background-color: pink;
+	/*background-color: pink;*/
 	width: 80%;
 	min-width: 250px;
 }
 section#recent-comments-2 {
-	background-color: yellow;
+	/*background-color: yellow;*/
 	width: 28%;
 	min-width: 300px;
 }
 
 #archives-2{
-	background-color: green;
+	/*background-color: green;*/
 	width: 18%;
 	min-width: 205px;
 }
 
 section#categories-2{
-	background-color: red;
+	/*background-color: red;*/
 	width: 18%;
 	min-width:205px;
 }
@@ -178,7 +188,7 @@ ul>li.menu-item{
 	padding-right: 2%;
 }
 li.menu-item:not(:last-of-type){
-	border-right: 2px solid darkblue ;
+	border-right: 2px solid whitesmoke ;
 
 }
 
@@ -199,16 +209,16 @@ p.site-title a{
 }
 
 p.site-description {
-	color: darkblue;
+	color: whitesmoke;
 	font-size: 200%;
-	height: 52px;
+	height: 43px;
 	margin: 0 auto;
 	margin-left: 18%;
 	/*margin-bottom: 5%;*/
 
 }
 .site-branding {
-	border-bottom: 2px solid darkblue;
+	border-bottom: 2px solid whitesmoke;
 	margin: 0 auto;
 	margin-bottom: 1%;
 }
@@ -287,7 +297,7 @@ dfn {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
-	color: darkblue;
+	color: goldenrod;
 }
 
 mark {
@@ -553,7 +563,7 @@ ol {
 }
 
 ul {
-	list-style :cjk-ideographic ;
+	list-style :none ;
 }
 
 ol {
@@ -691,7 +701,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: goldenrod;
 }
 
 a:focus {
@@ -1072,9 +1082,9 @@ object {
 
 
 article {
-	border:2px red solid;
+	border:2px darkgrey solid;
 	border-radius: 10px;
-	background-color: rgba(244,003,008,0.3);
+	background-color: rgba(25,25,112,0.8);
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
