@@ -60,7 +60,7 @@ html {
 
 }
 
-body.home, body.blog, body.page, body.single, body.category, body.search {
+body.home, body.blog, body.page, body.single, body.category, body.search, body.archive {
 	margin: 0 auto;
 	/*font-family:"Vladimir Script",sans-serif;*/
 	/*background-color: rgba(0, 35, 156,0.5);*/
@@ -96,6 +96,11 @@ body.home, body.blog, body.page, body.single, body.category, body.search {
 	margin-left: 2%;
 	text-align: left;
 }
+.comment-body {
+	/*border-collapse: separate;*/
+	margin: 0.5%;
+}
+
 
 #page {
 	margin: 0 auto;
@@ -230,7 +235,7 @@ p.logged-in-as a:nth-of-type(2){
 	display: none;
 }
 footer {
-	border-top:2px solid black;
+	border-top:2px solid whitesmoke;
 	text-align: center;
 	padding: 1%;
 	font-size: 20px;
@@ -797,8 +802,37 @@ a:active {
 .main-navigation.toggled ul {
 	display: block;
 }
+@media screen and (max-width: 786px) {
+	p.site-title {
+		margin: 0 auto;
+	}
+
+	#secondary {
+		border: 2px solid darkgray;
+		border-radius: 10px;
+		margin: 0 auto;
+		width: 100%;
+
+	}
+
+	#recent-posts-2, #recent-comments-2, #comments, #search-2 {
+		display: none;
+	}
+
+	article.post {
+		width: 150%;
+	}
+
+	div.nav-next {
+		width: 100%;
+	}
+
+}
+
+
 
 @media screen and (min-width: 37.5em) {
+
 	.menu-toggle {
 		display: none;
 	}
