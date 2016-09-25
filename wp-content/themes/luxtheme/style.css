@@ -325,6 +325,9 @@ input#email {
     background-color: rgba(25, 25, 112, 0.8);
     margin-top: 10%;
 }
+#respond p {
+    color:whitesmoke;
+}
 
 .comments-title{
     border: 2px solid darkgoldenrod;
@@ -788,6 +791,7 @@ textarea:focus {
 textarea {
     margin-left: 10%;
     width: 42%;
+    height: 120px;
 }
 
 /*--------------------------------------------------------------
