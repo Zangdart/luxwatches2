@@ -185,7 +185,7 @@ section#categories-2{
 }
 
 ul>li.menu-item{
-	margin: 2%;
+	margin: 1%;
 	font-size: 20px;
 	/*border-right: 2px solid darkblue ;*/
 	padding-right: 2%;
@@ -203,6 +203,7 @@ p.site-title {
 	font-size: 600%;
 	margin: 0 auto;
 	margin-left: 45%;
+	height: 120px;
 	font-family: "Vladimir Script",sans-serif;
 }
 
@@ -214,7 +215,7 @@ p.site-title a{
 p.site-description {
 	color: whitesmoke;
 	font-size: 200%;
-	height: 43px;
+	height: 50px;
 	margin: 0 auto;
 	margin-left: 18%;
 	/*margin-bottom: 5%;*/
@@ -223,7 +224,18 @@ p.site-description {
 .site-branding {
 	border-bottom: 2px solid whitesmoke;
 	margin: 0 auto;
-	margin-bottom: 1%;
+	margin-bottom: 1.5%;
+}
+#menu-item-39,#menu-item-40,#menu-item-46,#menu-item-62{
+	text-align: left;
+}
+
+
+ul.sub-menu {
+	background-color: whitesmoke;
+	text-align: left;
+	border-radius: 10px;
+	border: 0;
 }
 
 .entry-footer{
@@ -231,6 +243,9 @@ p.site-description {
 }
 p.logged-in-as a:nth-of-type(2){
 	display: none;
+}
+#masthead {
+	margin-bottom: 1.5%;
 }
 footer {
 	border-top:2px solid whitesmoke;
